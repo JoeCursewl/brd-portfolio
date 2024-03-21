@@ -7,7 +7,7 @@ export function ProjectId({ p_name, technos, notasAll }) {
                 <div className="header-project">
                     <div className='info-antho'>
                         <img src="/cursewl_img.jpg" alt="Bitter WEBP File" />
-                        <h1>Anthony Zerpa</h1>
+                        <h1>Anthony Zerpaaa</h1>
                     </div>
                     <p>{p_name}</p>
                 </div>
