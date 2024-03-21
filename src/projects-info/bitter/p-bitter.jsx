@@ -25,7 +25,7 @@ export function ProjectId({ p_name, technos, notasAll, description, date_repo, i
                     </p>
 
                     <div className='flex justify-start items-start w-[100%] flex-col gap-3'>
-                        <div className='flex justify-between items-center gap-4 bg-[#07070741] px-4 py-2 rounded-[12px] border border-solid border-[#4e4e4e1e] hover:border-[#e79b9b34] transition-colors'>
+                        <div className='flex justify-between items-center gap-4 bg-[#07070741] rounded-[12px] border border-solid border-[#4e4e4e1e] hover:border-[#e79b9b34] transition-colors'>
                             <img className='w-[50px] rounded-[12px]' src={img} alt="Nightcraft Webp File" />
 
                             <h2>{date_repo}</h2>
@@ -33,7 +33,7 @@ export function ProjectId({ p_name, technos, notasAll, description, date_repo, i
                             <p>{p_name}</p>
 
                             <div className='flex justify-center items-center'>
-                                <a href={link_repo} target='_blank'>View code</a>
+                                <a href={link_repo} target='_blank' className='bg-[#000] px-2'>View code</a>
                             </div>
                         </div>
 
