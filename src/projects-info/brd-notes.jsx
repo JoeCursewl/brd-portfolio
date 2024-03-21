@@ -50,14 +50,33 @@ export default function Projects() {
             "p_name": "Clínica Genesis",
             "date_repo": "10/23",
             "description_repo": ["Genesis it's desktop application, built using Tkinter, aims to streamline clinic operations and improve patient care."],
-            "technologies": [
-                'TailwindCSS',
-                'HTML',
-                'CSS',
-                'React',
-                'React-router-dom@v6'
-                ]
-        }
+            "second_description": "",
+            "img_review": "/img-projects/genesis.webp",
+            "link_repo": "https://github.com/JoeCursewl/brd-dashito",
+            "link_deploy": "https://ordereffortless.com/login",
+            "status_project": "/svg-projects/check-an.svg",
+            "technologies": [{
+                "tecno": "HTML",
+                "image": "/technologies/html-img.svg"
+            },
+            {
+                "tecno": "CSS",
+                "image": "/technologies/css-img.svg"
+            },
+            {
+                "tecno": "NestJS",
+                "image": "/technologies/nest-img.svg"
+            },
+            {
+                "tecno": "React",
+                "image": "/technologies/react-img.svg"
+            },
+            {
+                "tecno": "Prisma",
+                "image": "/technologies/prisma-img.svg"
+            }
+            ]
+        };
     
         const brd_id = {
             "id": "oKdjYhgS",
@@ -97,7 +116,7 @@ export default function Projects() {
         <motion.section className='flex flex-col justify-center items-center' animate={{ opacity: 1}} initial={{ opacity: -100 }} transition={{ duration: 0.8 }} style={{ margin: "30px 0px"}}>
                 {param === bitter_id.id ? <ProjectId p_name={bitter_id.p_name} technos={bitter_id.technologies} /> : ""}
                 {param === nightcraft_id.id ? <ProjectId p_name={nightcraft_id.p_name} technos={nightcraft_id.technologies}/> : ""}
-                {param === clinica_id.id ? <ProjectId p_name={clinica_id.p_name} technos={clinica_id.technologies} /> : ""}
+                {param === clinica_id.id ? <ProjectId p_name={clinica_id.p_name} technos={clinica_id.technologies} description={clinica_id.description_repo} img_project={clinica_id.img_review} deploy={clinica_id.link_deploy} status_project={clinica_id.status_project} date_repo={clinica_id.date_repo} img={clinica_id.img_review} /> : ""}
                 {param === brd_id.id ? <ProjectId p_name={brd_id.p_name} technos={brd_id.technologies} description={brd_id.description_repo} date_repo={brd_id.date_repo} img={brd_id.img_review} link_repo={brd_id.link_repo} description_2={brd_id.second_description} deploy={brd_id.link_deploy} status_project={brd_id.status_project}/> : ""}
         </motion.section>
     )
