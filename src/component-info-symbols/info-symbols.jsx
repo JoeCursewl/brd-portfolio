@@ -1,5 +1,4 @@
 import './info-symbols.css'
-import { Button } from '@nextui-org/react'
 
 export default function InfoSm() {
     return (
@@ -17,9 +16,9 @@ export default function InfoSm() {
                     </div>
 
                     <div>
-                        <Button color='primary'>
+                        <button color='primary'>
                             More info
-                        </Button>
+                        </button>
                     </div>
                 </div>
 
@@ -30,9 +29,9 @@ export default function InfoSm() {
                     </div>
 
                     <div className='flex justify-center items-center'>
-                        <Button color='primary'>
+                        <button color='primary'>
                             More info
-                        </Button>
+                        </button>
                     </div>
                 </div>
 
@@ -43,9 +42,9 @@ export default function InfoSm() {
                     </div>
 
                     <div>
-                        <Button color='primary'>
+                        <button color='primary'>
                             More info
-                        </Button>
+                        </button>
                     </div>
                 </div>
 

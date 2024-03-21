@@ -8,10 +8,6 @@
     width: 100%;
 }
 
-.info-prj-card img {
-    width: 25px;
-}
-
 .img-god img {
     border-radius: 100%;
 }
@@ -35,12 +31,6 @@
 
 .prj-desc {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.178));
-    padding: 1rem;
-    border-radius: 12px;
-    margin-bottom: 1rem;
-    height: 100px;
-    overflow: hidden; 
-    text-overflow: ellipsis;
 }
 
 .prj-desc-2 {

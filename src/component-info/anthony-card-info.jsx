@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function InfoCard({ img_project, description, link_repo, date_repo, d_repo, state_repo, img_p }) {
     return (
                 <div className='info-projects'>
-                    <div className='info-prj-card'>
+                    <div className='info-prj-card h-[100%]'>
                         <div className='img-god'>
                             <div className='border-comp-prj'>
                                 <img src={img_project} alt="Project Img File" />
@@ -17,17 +17,17 @@ export default function InfoCard({ img_project, description, link_repo, date_rep
                             </div>
                         </div>
 
-                        <div className='prj-desc'>
-                            <p>
+                        <div className='prj-desc p-4 mb-4 max-h-[120px] min-h-[120px] rounded-[12px] overflow-auto text-[#dfdfdf]'>
+                            <p className='max-h-[50px]'>
                             {description}
                             </p>
                         </div>
 
-                        <div className='prj-img-review' style={{ backgroundImage: `url(${img_p})`}}>
-
+                        <div className='flex justify-center items-center w-[100%] py-4 prj-desc rounded-t-[8px]'>
+                            <img className='w-[100px] rounded-[12px]' src={img_p} alt="" />
                         </div>
 
-                        <div className='prj-desc-2 flex justify-center items-center'>
+                        <div className='prj-desc-2 flex justify-center items-center border border-[#180d1d79]'>
                             <Link className='god-dm' to={d_repo}>
                                 Review  
                             </Link>
