@@ -38,8 +38,8 @@ export function ProjectId({ p_name, technos, notasAll, description, date_repo, i
                         </div>
 
                         <div className='text-[#c96262d0] flex justify-between items-center gap-2 bg-[#07070741] px-4 py-2 rounded-[12px] border border-solid border-[#4e4e4e1e] hover:border-[#e79b9b34] transition-colors'>
-                            <p>{deploy || "Not link provied"}</p>
-                            <a href={deploy}><img className='w-4 opacity-[0.8]' target='_blank' src="/svg-projects/arrozito-img.svg" alt="SVG File" /></a>
+                            <p className='max-w-[250px] text-ellipsis overflow-hidden'>{deploy || "Not link provied"}</p>
+                            <a href={deploy} target='_blank'><img className='w-4 opacity-[0.8]' src="/svg-projects/arrozito-img.svg" alt="SVG File" /></a>
                         </div>
                     </div>
 

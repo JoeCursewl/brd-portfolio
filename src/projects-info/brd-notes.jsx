@@ -67,7 +67,7 @@ export default function Projects() {
             "second_description": "BRD utilizes Object-Relational Mapping (ORM) technology. An ORM acts as a bridge between your application's programming language (like Python or Java) and the relational database (like MySQL or PostgreSQL) that stores your restaurant's data. This bridge simplifies data access and manipulation by translating between object-oriented structures in your code and the tabular structure of the database.",
             "img_review": "/img-projects/brd-app-cutted.webp",
             "link_repo": "https://github.com/JoeCursewl/brd-dashito",
-            "link_deploy": "https://brd.breadriuss.store/login",
+            "link_deploy": "https://ordereffortless.com/login",
             "technologies": [{
                 "tecno": "HTML",
                 "image": "/technologies/html-img.svg"
