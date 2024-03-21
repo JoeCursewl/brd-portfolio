@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color-scheme: light dark;
+    color: rgba(255, 248, 248, 0.87);
+    background-image: linear-gradient(to right, #0f0b19, #0b0f19, #110b16, #0b0f19, #0b0f19, #130b19);
+
+    --an-color-links: #8830ca;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

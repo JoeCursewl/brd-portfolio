@@ -1,0 +1,12 @@
+
+.bd-card-prj {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.178));
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}

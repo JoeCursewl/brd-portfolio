@@ -1,0 +1,51 @@
+.all-content-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 78vh;
+}
+
+.all-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid rgba(20, 4, 4, 0.308);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.185), rgba(20, 4, 4, 0.267), rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.267));
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-radius: 12px;
+    gap: 1rem;
+}
+
+.header-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.description-project {
+    padding: 0.5rem 0rem;
+    width: 98%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.header-project img {
+    border-radius: 100%;
+}
+
+.info-antho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.info-antho img {
+    width: 35px;
+}

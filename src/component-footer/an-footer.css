@@ -1,0 +1,41 @@
+.ft-all-cn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ft-cn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.ft-links-an {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ft-links-an-2 {
+    display: none;
+}
+
+@media (max-width: 440px) {
+    .ft-links-an {
+        display: none;
+    }
+
+    .ft-cn {
+        align-items: flex-start;
+    }
+
+    .ft-links-an-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
