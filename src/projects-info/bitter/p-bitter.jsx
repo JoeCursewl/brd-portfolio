@@ -1,5 +1,5 @@
 import './p-bitter.css'
-export function ProjectId({ p_name, technos, notasAll, description, date_repo, img, link_repo, img_project, description_2, deploy }) {
+export function ProjectId({ p_name, technos, notasAll, description, date_repo, img, link_repo, img_project, description_2, deploy, status_project }) {
     return (
         <section className="all-content-project">
             <div className="all-project">
@@ -24,16 +24,16 @@ export function ProjectId({ p_name, technos, notasAll, description, date_repo, i
                         {description_2}
                     </p>
 
-                    <div className='flex justify-start items-start w-[100%] flex-col gap-3'>
-                        <div className='flex justify-between items-center gap-4 bg-[#07070741] rounded-[12px] border border-solid border-[#4e4e4e1e] hover:border-[#e79b9b34] transition-colors'>
+                    <div className='flex justify-start items-start w-[100%] flex-col gap-2'>
+
+                        <div className='w-[250px] flex justify-between items-center gap-4 bg-[#07070741] rounded-[12px] border border-solid border-[#4e4e4e1e] hover:border-[#e79b9b34] transition-colors'>
                             <img className='w-[50px] rounded-[12px]' src={img} alt="Nightcraft Webp File" />
 
-                            <h2>{date_repo}</h2>
+                            <h2 className='text-[14px] text-[#ffc56ee5]'>{date_repo}</h2>
 
-                            <p>{p_name}</p>
-
-                            <div className='flex justify-center items-center'>
-                                <a href={link_repo} target='_blank' className='bg-[#000] px-2'>View code</a>
+                            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "250px" }}>
+                                <a href={link_repo} target='_blank' className='bg-[#0000001c] pr-1 py-1 rounded-[8px] text-[14px] u-link'>View code</a>
+                                <img className='w-5' src={status_project} alt="" />
                             </div>
                         </div>
 

@@ -68,6 +68,7 @@ export default function Projects() {
             "img_review": "/img-projects/brd-app-cutted.webp",
             "link_repo": "https://github.com/JoeCursewl/brd-dashito",
             "link_deploy": "https://ordereffortless.com/login",
+            "status_project": "/svg-projects/check-an.svg",
             "technologies": [{
                 "tecno": "HTML",
                 "image": "/technologies/html-img.svg"
@@ -97,7 +98,7 @@ export default function Projects() {
                 {param === bitter_id.id ? <ProjectId p_name={bitter_id.p_name} technos={bitter_id.technologies} /> : ""}
                 {param === nightcraft_id.id ? <ProjectId p_name={nightcraft_id.p_name} technos={nightcraft_id.technologies}/> : ""}
                 {param === clinica_id.id ? <ProjectId p_name={clinica_id.p_name} technos={clinica_id.technologies} /> : ""}
-                {param === brd_id.id ? <ProjectId p_name={brd_id.p_name} technos={brd_id.technologies} description={brd_id.description_repo} date_repo={brd_id.date_repo} img={brd_id.img_review} link_repo={brd_id.link_repo} description_2={brd_id.second_description} deploy={brd_id.link_deploy}/> : ""}
+                {param === brd_id.id ? <ProjectId p_name={brd_id.p_name} technos={brd_id.technologies} description={brd_id.description_repo} date_repo={brd_id.date_repo} img={brd_id.img_review} link_repo={brd_id.link_repo} description_2={brd_id.second_description} deploy={brd_id.link_deploy} status_project={brd_id.status_project}/> : ""}
         </motion.section>
     )
 }
