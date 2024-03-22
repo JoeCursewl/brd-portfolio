@@ -179,7 +179,7 @@ export default function Main() {
 
                                 <div className='text-[#fceded] grid gap-2'>
                                     <p className='flex justify-start items-center gap-2'><img className='w-5' src="/svg-projects/code-img.svg" alt="Code SVG File" />I started the process of learning Astro, this framework web has given me a good experience, I'm the road to learn everything about it.</p>
-                                    <p className='flex justify-start items-center gap-2'><img className='w-5' src="/svg-projects/code-img.svg" alt="Code SVG File" />Redis: I'm excited to learn everything about this database, it's part of my roadmap this year.</p>
+                                    <p className='flex justify-start items-center gap-2'><img className='w-5' src="/svg-projects/code-img.svg" alt="Code SVG File" />Redis: I'm excited to learn everything about this NoSQL database management software, it's part of my roadmap this year.</p>
                                     <p className='flex justify-start items-center gap-2'><img className='w-5' src="/svg-projects/code-img.svg" alt="Code SVG File" />Data science with Python, using libraries like Pandas, Numpy, Plotly.</p>
                                 </div>
                             </div>

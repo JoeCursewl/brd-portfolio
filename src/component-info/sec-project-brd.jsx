@@ -30,7 +30,7 @@ export default function ProjectsBrd() {
         {
             "img_project": "/cursewl_img.jpg",
             "link_repo": "https://github.breadriuss.store",
-            "date_repo": "08/23",
+            "date_repo": "08/22",
             "description_repo": ["Genesis it's desktop application, built using Tkinter, aims to streamline clinic operations and improve patient care."],
             "d_repo": "/projects?v=plJuwhsT",
             "status_repo": true,

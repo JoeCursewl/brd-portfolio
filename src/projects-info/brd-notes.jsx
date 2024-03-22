@@ -21,7 +21,7 @@ export default function Projects() {
     const bitter_id = {
         "id": "XSdlfjew",
         "p_name": "Bitter",
-        "date_repo": "10/23",
+        "date_repo": "05/23",
         "description_repo": "Bitter is an app where anyone can share anything, simply. Jot down poems, thoughts, or anything else want to share with friends or the world. Poeple can express themselves visually with images. Save their creations and share them with friends or the world using a unique link.",
         "second_description": "Built on React using react-router-dom@v6 and TailwindCSS to style frontend, and the backend is built on NestJS using a famous (Object-Relational Mapping) ORM Prisma, to manage the database using resources for every endpoint.",
         "img_review": "/img-projects/bitter-img.webp",
