@@ -1,5 +1,5 @@
 import './p-bitter.css'
-export function ProjectId({ p_name, technos, notasAll, description, date_repo, img, link_repo, img_project, description_2, deploy, status_project }) {
+export function ProjectId({ p_name, technos, notasAll, description, date_repo, img, link_repo, img_project, description_2, deploy, status_project, isPrivate }) {
     return (
         <section className="all-content-project">
             <div className="all-project">
@@ -22,6 +22,14 @@ export function ProjectId({ p_name, technos, notasAll, description, date_repo, i
 
                     <p>
                         {description_2}
+                    </p>
+
+                    <p>
+                        {isPrivate === true ? 
+                        <div className='text-[#c96262d0] flex justify-between items-center gap-2 bg-[#07070741] px-4 py-2 rounded-[12px] border border-solid border-[#4e4e4e1e] hover:border-[#e79b9b34] transition-colors'>
+                            <p className='text-center'>{"Due to privacy terms, this code is private."}</p>
+                    </div>
+                    : ""}
                     </p>
 
                     <div className='flex justify-start items-start w-[100%] flex-col gap-2'>

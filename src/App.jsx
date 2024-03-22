@@ -12,9 +12,8 @@ export default function NavBar () {
 
         <div className=''>
           <ul className='ln-dv-all'>
-            <li><Link className='u-link'>About</Link></li>
-            <li><Link className='u-link'>Skills</Link></li>
-            <li><Link className='u-link' to={"/"}>Projects</Link></li>
+            <li><Link to='/about'className='u-link'>About</Link></li>
+            <li><Link to='/skills' className='u-link'>Skills</Link></li>
           </ul>
         </div>
       </div>

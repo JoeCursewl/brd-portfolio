@@ -13,7 +13,7 @@ export default function ProjectsBrd() {
             "date_repo": "05/23",
             "description_repo": ["Bitter is an app to jot down anything you want to share with friends or anyone else. Sharing poems and more with links."],
             "d_repo": "/projects?v=XSdlfjew",
-            "status_repo": false,
+            "status_repo": true,
             "img_review": "/img-projects/bitter-img.webp",
             "id": 13345
         },

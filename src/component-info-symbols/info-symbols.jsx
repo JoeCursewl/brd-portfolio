@@ -1,8 +1,10 @@
 import './info-symbols.css'
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 export default function InfoSm() {
     return (
-        <section className='info-s-all'>
+        <motion.section className='info-s-all' animate={{ opacity: 1 }} initial={{ opacity: -100 }} transition={{ duration: 0.8 }}>
             <div className='info-s'>
 
                 <div>
@@ -16,9 +18,7 @@ export default function InfoSm() {
                     </div>
 
                     <div>
-                        <button color='primary'>
-                            More info
-                        </button>
+                        <span></span>
                     </div>
                 </div>
 
@@ -29,9 +29,7 @@ export default function InfoSm() {
                     </div>
 
                     <div className='flex justify-center items-center'>
-                        <button color='primary'>
-                            More info
-                        </button>
+                        <span></span>
                     </div>
                 </div>
 
@@ -42,13 +40,15 @@ export default function InfoSm() {
                     </div>
 
                     <div>
-                        <button color='primary'>
-                            More info
-                        </button>
+                        <span></span>
                     </div>
                 </div>
 
+                <div>
+                    <Link to={"/"} className='hover:text-[#ffbfbf] transition-all bg-[#0707076e] px-4 py-2 text-[0.9rem] border-transparent border-[1px] hover:border-[#2d1b33] rounded-[8px]'>Back to home</Link>
+                </div>
+
             </div>
-        </section>
+        </motion.section>
     )
 }

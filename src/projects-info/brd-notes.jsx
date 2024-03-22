@@ -26,6 +26,7 @@ export default function Projects() {
             "second_description": "Built on React using react-router-dom@v6 and TailwindCSS to style frontend, and the backend is built on NestJS using a famous (Object-Relational Mapping) ORM Prisma, to manage the database using resources for every endpoint.",
             "img_review": "/img-projects/bitter-img.webp",
             "status_project": "/svg-projects/check-an.svg",
+            "private_repo": false,
             "link_repo": "https://github.com/JoeCursewl",
             "link_deploy": "https://love.brdbitter.store",
             "technologies": [{
@@ -66,9 +67,10 @@ export default function Projects() {
             "description_repo": ["Introducing the remarkable overhaul of NightcraftMC's website, a stunning redesign that goes beyond the ordinary and embraces cutting-edge technologies to create an unparalleled user experience."],
             "second_description": "Harnessing the power of React and the elegance of TailwindCSS, this meticulously crafted website takes immersive gameplay to new heights. With React's dynamic and responsive capabilities, every element seamlessly adapts to your every click, ensuring a fluid and engaging interaction. Meanwhile, TailwindCSS brings forth a visually striking aesthetic, with its meticulously designed components and intuitive styling options, creating a truly immersive experience that will leave you breathless.",
             "img_review": "/img-projects/nightcraft.webp",
-            "link_repo": "https:/github.com/JoeCursewl/control-de-clinica-genesis",
+            "link_repo": "https:/github.com/JoeCursewl/nightcraft-web-update",
             "link_deploy": "https://www.nightcraft.org",
-            "status_project": "/svg-projects/check-an.svg", 
+            "status_project": "/svg-projects/check-an.svg",
+            "private_repo": false, 
             "technologies": [{
                 "tecno": "Python",
                 "image": "/technologies/python-img.svg"
@@ -94,6 +96,7 @@ export default function Projects() {
             "link_repo": "https://github.com/JoeCursewl/control-de-clinica-genesis",
             "link_deploy": "https://github.com/JoeCursewl/control-de-clinica-genesis",
             "status_project": "/svg-projects/check-an.svg",
+            "private_repo": false,
             "technologies": [{
                 "tecno": "Python",
                 "image": "/technologies/python-img.svg"
@@ -119,6 +122,7 @@ export default function Projects() {
             "link_repo": "https://github.com/JoeCursewl/brd-dashito",
             "link_deploy": "https://ordereffortless.com/login",
             "status_project": "/svg-projects/check-an.svg",
+            "private_repo": true,
             "technologies": [{
                 "tecno": "HTML",
                 "image": "/technologies/html-img.svg"
@@ -154,9 +158,9 @@ export default function Projects() {
     return (
         <motion.section className='flex flex-col justify-center items-center' animate={{ opacity: 1}} initial={{ opacity: -100 }} transition={{ duration: 0.8 }} style={{ margin: "30px 0px"}}>
                 {param === bitter_id.id ? <ProjectId p_name={bitter_id.p_name} technos={bitter_id.technologies} description={bitter_id.description_repo} description_2={bitter_id.second_description} img={bitter_id.img_review} date_repo={bitter_id.date_repo} status_project={bitter_id.status_project} deploy={bitter_id.link_deploy} link_repo={bitter_id.link_repo}/> : ""}
-                {param === nightcraft_id.id ? <ProjectId p_name={nightcraft_id.p_name} technos={nightcraft_id.technologies} deploy={nightcraft_id.link_deploy} date_repo={nightcraft_id.date_repo} status_project={nightcraft_id.status_project} img={nightcraft_id.img_review} description={nightcraft_id.description_repo} description_2={nightcraft_id.second_description}/> : ""}
-                {param === clinica_id.id ? <ProjectId p_name={clinica_id.p_name} technos={clinica_id.technologies} description={clinica_id.description_repo} img_project={clinica_id.img_review} deploy={clinica_id.link_deploy} status_project={clinica_id.status_project} date_repo={clinica_id.date_repo} img={clinica_id.img_review} description_2={clinica_id.second_description}/> : ""}
-                {param === brd_id.id ? <ProjectId p_name={brd_id.p_name} technos={brd_id.technologies} description={brd_id.description_repo} date_repo={brd_id.date_repo} img={brd_id.img_review} link_repo={brd_id.link_repo} description_2={brd_id.second_description} deploy={brd_id.link_deploy} status_project={brd_id.status_project}/> : ""}
+                {param === nightcraft_id.id ? <ProjectId p_name={nightcraft_id.p_name} technos={nightcraft_id.technologies} deploy={nightcraft_id.link_deploy} date_repo={nightcraft_id.date_repo} status_project={nightcraft_id.status_project} img={nightcraft_id.img_review} description={nightcraft_id.description_repo} description_2={nightcraft_id.second_description} link_repo={nightcraft_id.link_repo}/> : ""}
+                {param === clinica_id.id ? <ProjectId p_name={clinica_id.p_name} technos={clinica_id.technologies} description={clinica_id.description_repo} img_project={clinica_id.img_review} deploy={clinica_id.link_deploy} status_project={clinica_id.status_project} date_repo={clinica_id.date_repo} img={clinica_id.img_review} description_2={clinica_id.second_description} link_repo={clinica_id.link_repo}/> : ""}
+                {param === brd_id.id ? <ProjectId p_name={brd_id.p_name} technos={brd_id.technologies} description={brd_id.description_repo} date_repo={brd_id.date_repo} img={brd_id.img_review} link_repo={brd_id.link_repo} description_2={brd_id.second_description} deploy={brd_id.link_deploy} status_project={brd_id.status_project} isPrivate={brd_id.private_repo}/> : ""}
         </motion.section>
     )
 }
