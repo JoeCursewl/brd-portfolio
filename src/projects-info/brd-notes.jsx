@@ -67,7 +67,8 @@ export default function Projects() {
             "second_description": "Harnessing the power of React and the elegance of TailwindCSS, this meticulously crafted website takes immersive gameplay to new heights. With React's dynamic and responsive capabilities, every element seamlessly adapts to your every click, ensuring a fluid and engaging interaction. Meanwhile, TailwindCSS brings forth a visually striking aesthetic, with its meticulously designed components and intuitive styling options, creating a truly immersive experience that will leave you breathless.",
             "img_review": "/img-projects/nightcraft.webp",
             "link_repo": "https:/github.com/JoeCursewl/control-de-clinica-genesis",
-            "link_deploy": "https://www.nigthcraft.org",
+            "link_deploy": "https://www.nightcraft.org",
+            "status_project": "/svg-projects/check-an.svg", 
             "technologies": [{
                 "tecno": "Python",
                 "image": "/technologies/python-img.svg"
