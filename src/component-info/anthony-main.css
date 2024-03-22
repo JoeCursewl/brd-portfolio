@@ -25,6 +25,10 @@
     font-size: 1.5rem;
 }
 
+.card-info-ant {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.185), rgba(20, 4, 4, 0.267), rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.267));
+}
+
 .spn-ant {
     color: orange;
 }
@@ -55,20 +59,26 @@
     color: rgb(222, 157, 252);
 }
 
-.brd-sng-svg svg, img {
+.brd-sng-svg svg,
+img {
     width: 30px;
 }
 
-@media (max-width: 1030px) {
-    .all-content-idk {
-        width: 75%;
-    }
+.stuff-ellipsis {
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1030px) {
     .all-content-idk {
         width: 85%;
     }
 }
 
-
+@media (max-width: 376px) {
+    .all-content-idk {
+        width: 92%;
+    }
+}

@@ -40,6 +40,7 @@ export default function NavBar() {
           <ul className='ln-dv-all'>
             <li><Link to='/about' className='u-link'>About</Link></li>
             <li><Link to='/skills' className='u-link'>Skills</Link></li>
+            <li><Link to='/' className='u-link'>Home</Link></li>
           </ul>
         </div>
 
@@ -50,10 +51,10 @@ export default function NavBar() {
         </div>
 
 
-        <div className={`modal ${show ? 'show' : ''}`}>
+        <div className={`modal ${show ? 'show' : ''}`} onClick={() => animateBars()}>
           <div className="modal-content flex justify-center items-center">
 
-            <div className='flex justify-center items-center gap-4 flex-col' onClick={() => animateBars()}>
+            <div className='flex justify-center items-center gap-4 flex-col'>
               <Link to='/' className='u-link text-[1.5rem]'>Home</Link>
               <Link to='/about' className='u-link text-[1.5rem]'>About</Link>
               <Link to='/skills' className='u-link text-[1.5rem]'>Skills</Link>
