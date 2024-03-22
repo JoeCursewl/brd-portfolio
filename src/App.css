@@ -14,7 +14,7 @@
 }
 
 .ln-dv-all {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -40,7 +40,7 @@
 }
 
 .modal-content {
-  background-image: linear-gradient(20deg, #0b060fbb, #0c050ccb, #140a0ad7, #0d040fc0);
+  background-image: linear-gradient(20deg, #0b060fef, #0c050cf6, #0c0606fa, #0d040ff3);
   border-radius: 20px;
   border: 0.5px solid #221f1f4f;
   width: 90%;
@@ -51,11 +51,12 @@
   padding: 20px;
   border-radius: 5px;
   transition: transform 0.5s ease-in-out;
-  transform: translateY(100%);
+  transform: translateY(50vh);
+  z-index: 999999;
 }
 
 .modal.show .modal-content {
-  transform: translateY(0);
+  transform: translateY(20vh);
   transition: transform 0.5s ease-out;
 }
 
@@ -76,4 +77,39 @@ li {
   width: 40px;
   border-radius: 100%;
 }
+
+
+.bars {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.bars span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: rgb(165, 116, 255);
+  margin-top: 6px;
+  transform-origin: 0px 100%;
+  transition: all 300ms;
+}
+
+.activelines1__bars-menu {
+  transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activelines2__bars-menu {
+  opacity: 0;
+  margin-left: -30px;
+}
+
+.activelines3__bars-menu {
+  transform: rotate(-45deg) translate(-4px, 2px);
+}
+
+.bars__menu {
+  display: none;
+}
+
 

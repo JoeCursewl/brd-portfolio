@@ -1,17 +1,31 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
 
 export default function NavBar() {
-  const [show, setShow] = useState(false); // Estado para controlar la visibilidad del modal
+  const [open, SetIsopen] = useState(false);
+  const [show, setShow] = useState(false)
 
-  const handleOpenModal = () => {
-    setShow(true); // Abrir el modal
-  };
+  useEffect(() => {
+    const botonBars = document.querySelector(".bars");
+    botonBars.addEventListener('click', animateBars);
 
-  const handleCloseModal = () => {
-    setShow(false); // Cerrar el modal
-  };
+    return () => {
+      botonBars.removeEventListener('click', animateBars);
+    };
+  }, [open]);
+
+  function animateBars() {
+    const lines1 = document.querySelector(".lines1__bars-menu");
+    const lines2 = document.querySelector(".lines2__bars-menu");
+    const lines3 = document.querySelector(".lines3__bars-menu");
+    lines1.classList.toggle("activelines1__bars-menu")
+    lines2.classList.toggle("activelines2__bars-menu")
+    lines3.classList.toggle("activelines3__bars-menu")
+    SetIsopen(!open);
+    setShow(!show)
+  }
 
   return (
     <nav className="nav-main">
@@ -22,29 +36,30 @@ export default function NavBar() {
           <img src="/cursewl_img.jpg" alt="Anthony Cursewl File Image" />
         </div>
 
-        <div className='hidden sm:block'>
+        <div className='max-[650px]:hidden'>
           <ul className='ln-dv-all'>
             <li><Link to='/about' className='u-link'>About</Link></li>
             <li><Link to='/skills' className='u-link'>Skills</Link></li>
           </ul>
         </div>
 
-        <div className='sm:hidden'>
-          <div onClick={() => handleOpenModal()} className='hover:cursor-pointer'>
-            <img src="/technologies/html-img.svg" alt="SVG File Menu" />
-          </div>
-
-          <ul className={`ln-dv-all`}>
-            <li><Link to='/about' className='u-link'>About</Link></li>
-            <li><Link to='/skills' className='u-link'>Skills</Link></li>
-          </ul>
+        <div className='bars sm:hidden'>
+          <span className="lines1__bars-menu"></span>
+          <span className="lines2__bars-menu"></span>
+          <span className="lines3__bars-menu"></span>
         </div>
 
-        <div className={`modal ${show ? 'show' : ''}`} onClick={handleCloseModal}>
-          <div className="modal-content">
-            <h2>Modal</h2>
-            <p>Contenido del modal...</p>
-            <button onClick={handleCloseModal}>Cerrar Modal</button>
+
+        <div className={`modal ${show ? 'show' : ''}`}>
+          <div className="modal-content flex justify-center items-center">
+
+            <div className='flex justify-center items-center gap-4 flex-col' onClick={() => animateBars()}>
+              <Link to='/' className='u-link text-[1.5rem]'>Home</Link>
+              <Link to='/about' className='u-link text-[1.5rem]'>About</Link>
+              <Link to='/skills' className='u-link text-[1.5rem]'>Skills</Link>
+              <a href={"https://github.com/JoeCursewl"} className='u-link text-[1.5rem]'>Repository</a>
+            </div>
+
           </div>
         </div>
 
