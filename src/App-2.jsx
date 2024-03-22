@@ -5,6 +5,8 @@ import Main from "./component-info/anthony-main"
 import InfoSm from "./component-info-symbols/info-symbols"
 import BrdNotes from "./projects-info/brd-notes"
 import Projects from "./projects-info/brd-notes"
+import { ABout } from "./component-personal/about-an"
+import { Skills } from "./component-personal/skills.an"
 
 export default function App2() {
 
@@ -20,6 +22,8 @@ export default function App2() {
                     <Route path="details" element={<Projects /> }>
                 </Route>
                 <Route path="/*" element={<h1>Not found</h1>} />
+                <Route path="/about" element={<ABout />} />
+                <Route path="/skills" element={<Skills />} />
             </Routes>
 
             <AnFooter />
