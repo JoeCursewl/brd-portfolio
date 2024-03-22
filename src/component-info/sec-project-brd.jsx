@@ -9,7 +9,7 @@ export default function ProjectsBrd() {
     [
         {
             "img_project": "/cursewl_img.jpg",
-            "link_repo": "https://github.breadriuss.store",
+            "link_repo": "https://github.com/JoeCursewl",
             "date_repo": "05/23",
             "description_repo": ["Bitter is an app to jot down anything you want to share with friends or anyone else. Sharing poems and more with links."],
             "d_repo": "/projects?v=XSdlfjew",
@@ -19,7 +19,7 @@ export default function ProjectsBrd() {
         },
         {
             "img_project": "/cursewl_img.jpg",
-            "link_repo": "https://github.breadriuss.store",
+            "link_repo": "https://github.com/JoeCursewl",
             "date_repo": "07/23",
             "description_repo": ["Redesign of NightcraftMC's web, using new technologies and opening new spaces, just to offer a different experience."],
             "d_repo": "/projects?v=DdijCxqA",
@@ -29,7 +29,7 @@ export default function ProjectsBrd() {
         },
         {
             "img_project": "/cursewl_img.jpg",
-            "link_repo": "https://github.breadriuss.store",
+            "link_repo": "https://github.com/JoeCursewl",
             "date_repo": "08/22",
             "description_repo": ["Genesis it's desktop application, built using Tkinter, aims to streamline clinic operations and improve patient care."],
             "d_repo": "/projects?v=plJuwhsT",
@@ -39,7 +39,7 @@ export default function ProjectsBrd() {
         },
         {
             "img_project": "/cursewl_img.jpg",
-            "link_repo": "https://github.breadriuss.store",
+            "link_repo": "https://github.com/JoeCursewl",
             "date_repo": "10/23",
             "description_repo": ["BRD is a user-friendly and feature-rich application designed to streamline restaurant operations and empower managers. It offers a centralized platform for managing various aspects of your restaurant, from inventory and staff scheduling to customer engagement and table reservations."],
             "d_repo": "/projects?v=oKdjYhgS",
