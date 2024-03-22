@@ -7,7 +7,7 @@ export function ProjectId({ p_name, technos, notasAll, description, date_repo, i
                 <div className="flex justify-between items-start w-full flex-col md:flex-row gap-2">
                     <div className='flex justify-center items-center gap-3'>
                         <img className='w-[30px] rounded-[100%]' src="/cursewl_img.jpg" alt="Bitter WEBP File" />
-                        <h1>Anthony Zerpa</h1>
+                        <h1 className='text-[#ffcccc]'>Anthony Zerpa</h1>
                     </div>
 
                     <div>
