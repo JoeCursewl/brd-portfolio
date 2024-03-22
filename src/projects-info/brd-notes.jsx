@@ -22,12 +22,12 @@ export default function Projects() {
             "id": "XSdlfjew",
             "p_name": "Bitter",
             "date_repo": "10/23",
-            "description_repo": ["Bitter is an app to jot down anything you want to share with friends or anyone else. Sharing poems and more with links."],
-            "second_description": "Genesis, a user-friendly Tkinter desktop application for clinics, some functions designed to improve patient care. Appointment scheduling, billing, and reporting are just a few features that empower healthcare professionals to focus on what matters most – their patients' well-being.",
+            "description_repo": "Bitter is an app where anyone can share anything, simply. Jot down poems, thoughts, or anything else want to share with friends or the world. Poeple can express themselves visually with images. Save their creations and share them with friends or the world using a unique link.",
+            "second_description": "Built on React using react-router-dom@v6 and TailwindCSS to style frontend, and the backend is built on NestJS using a famous (Object-Relational Mapping) ORM Prisma, to manage the database in a easier way.",
             "img_review": "/img-projects/bitter-img.webp",
             "status_project": "/svg-projects/check-an.svg",
-            "link_repo": "https://github.com/JoeCursewl/control-de-clinica-genesis",
-            "link_deploy": "https://github.com/JoeCursewl/control-de-clinica-genesis",
+            "link_repo": "https://github.com/JoeCursewl",
+            "link_deploy": "https://love.brdbitter.store",
             "technologies": [{
                 "tecno": "React",
                 "image": "/technologies/react-img.svg"
@@ -51,6 +51,10 @@ export default function Projects() {
                 {
                     "tecno": "PostgreSQL",
                     "image": "/technologies/db-img.svg"
+                },
+                {
+                    "tecno": "Firebase",
+                    "image": "/technologies/firebase-img.svg"
                 }
         ]
         }
