@@ -23,7 +23,7 @@ export default function Projects() {
             "p_name": "Bitter",
             "date_repo": "10/23",
             "description_repo": "Bitter is an app where anyone can share anything, simply. Jot down poems, thoughts, or anything else want to share with friends or the world. Poeple can express themselves visually with images. Save their creations and share them with friends or the world using a unique link.",
-            "second_description": "Built on React using react-router-dom@v6 and TailwindCSS to style frontend, and the backend is built on NestJS using a famous (Object-Relational Mapping) ORM Prisma, to manage the database in a easier way.",
+            "second_description": "Built on React using react-router-dom@v6 and TailwindCSS to style frontend, and the backend is built on NestJS using a famous (Object-Relational Mapping) ORM Prisma, to manage the database using resources for every endpoint.",
             "img_review": "/img-projects/bitter-img.webp",
             "status_project": "/svg-projects/check-an.svg",
             "link_repo": "https://github.com/JoeCursewl",
@@ -63,11 +63,11 @@ export default function Projects() {
             "id": "DdijCxqA",
             "p_name": "NightcraftMC",
             "date_repo": "07/23",
-            "description_repo": ["Redesign of NightcraftMC's web, using new technologies and opening new spaces, just to offer a different experience."],
-            "second_description": "Genesis, a user-friendly Tkinter desktop application for clinics, some functions designed to improve patient care. Appointment scheduling, billing, and reporting are just a few features that empower healthcare professionals to focus on what matters most – their patients' well-being.",
+            "description_repo": ["Introducing the remarkable overhaul of NightcraftMC's website, a stunning redesign that goes beyond the ordinary and embraces cutting-edge technologies to create an unparalleled user experience."],
+            "second_description": "Harnessing the power of React and the elegance of TailwindCSS, this meticulously crafted website takes immersive gameplay to new heights. With React's dynamic and responsive capabilities, every element seamlessly adapts to your every click, ensuring a fluid and engaging interaction. Meanwhile, TailwindCSS brings forth a visually striking aesthetic, with its meticulously designed components and intuitive styling options, creating a truly immersive experience that will leave you breathless.",
             "img_review": "/img-projects/nightcraft.webp",
-            "link_repo": "https://github.com/JoeCursewl/control-de-clinica-genesis",
-            "link_deploy": "https://github.com/JoeCursewl/control-de-clinica-genesis",
+            "link_repo": "https:/github.com/JoeCursewl/control-de-clinica-genesis",
+            "link_deploy": "https://www.nigthcraft.org",
             "technologies": [{
                 "tecno": "Python",
                 "image": "/technologies/python-img.svg"
@@ -137,9 +137,14 @@ export default function Projects() {
             {
                 "tecno": "Prisma",
                 "image": "/technologies/prisma-img.svg"
-            },{
+            },
+            {
                 "tecno": "PostgreSQL",
                 "image": "/technologies/db-img.svg"
+            },
+            {
+                "tecno": "Nginx X",
+                "image": "/technologies/nginx-img.svg"
             }
             ]
           };
