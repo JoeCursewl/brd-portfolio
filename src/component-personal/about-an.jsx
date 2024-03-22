@@ -27,7 +27,7 @@ export function ABout() {
                     <div className='grid gap-4'>
                         <p>Hi there! 👋. As I said I'm <span className='spn-dvp'>Anthony Zerpa</span>, a highly motivated <span className='spn-ant'>Frontend & Backend</span> developer with a passion for delovoping new stuff. I bring 2 years of experience to the table, and I'm always eager to learn and grow. I'm particularly interested in Web development. In my free time, you might find me producing music and probably designing. Let's connect and discuss how I can contribute to your team!</p>
                         <p>
-                            I reside in <span className='spn-dvp'>Táchira, Venezuela</span>, and I'm 20 years old. I'm currently studying the college to become a system engineer. My goal is being able to improve myself in this aspect everyday if I can, and <span className='spn-ant'>try to do my best</span> as much as I can.
+                            I reside in <span className='spn-dvp'>Táchira, Venezuela</span>, and I'm 20 years old. I'm currently studying the college to become in a system engineer. My goal is being able to improve myself in this aspect everyday if I can, and <span className='spn-ant'>try to do my best</span> as much as I can.
                         </p>
 
                         <p>In my <span className='spn-ant'>free time</span>, I like to make beats and design everything that comes up to me in that moment. I enjoy creating new things and getting better everyday. I'm willing to <span className='spn-ant'>keep learning</span> any technology if needed, that's my goal
