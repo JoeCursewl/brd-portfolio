@@ -34,7 +34,7 @@ export default function Main() {
     >
       <div className="all-content-idk">
         <div className="fst-info-ahnt">
-          <div className="flex justify-start items-center my-5 gap-3 max-[668px]:flex-col max-[668px]:items-start">
+          <div className="flex justify-start items-center my-5 gap-3 max-[768px]:flex-col max-[768px]:items-start">
             <h1>
               Anthony Zerpa, a <span className="">new</span>{" "}
               <span className="spn-dvp">Developer();</span>
@@ -49,13 +49,31 @@ export default function Main() {
               Download CV
             </a>
 
-            <a
-              href={"https://github.com/JoeCursewl"}
-              target={"_target"}
-              className="flex justify-center items-center card-info-ant px-2 py-1 text-[14px] text-[#dcadfc] rounded-[12px] border-solid border-[0.5px] border-[#dcadfc28] transition-colors hover:bg-[#1e1320]"
-            >
-              <img src="" alt="" />
-            </a>
+            <div className="flex justify-center items-center gap-2 md:flex-row">
+              <a
+                href={"https://github.com/JoeCursewl"}
+                target={"_target"}
+                className="flex justify-center items-center card-info-ant px-2 py-1 text-[14px] text-[#dcadfc] rounded-[12px] border-solid border-[0.5px] border-[#dcadfc28] transition-colors hover:bg-[#1e1320]"
+              >
+                <img
+                  className="w-5 py-1"
+                  src="/technologies/github-img.svg"
+                  alt="Github SVG File"
+                />
+              </a>
+
+              <a
+                href={"https://www.linkedin.com/in/anthonycursewl/"}
+                target={"_target"}
+                className="flex justify-center items-center card-info-ant px-2 py-1 text-[14px] text-[#dcadfc] rounded-[12px] border-solid border-[0.5px] border-[#dcadfc28] transition-colors hover:bg-[#1e1320]"
+              >
+                <img
+                  className="w-5 py-1"
+                  src="/technologies/linkedin-img.svg"
+                  alt="Github SVG File"
+                />
+              </a>
+            </div>
           </div>
 
           <p>
