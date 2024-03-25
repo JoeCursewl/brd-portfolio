@@ -61,7 +61,7 @@ export function ABout() {
 
             <div className="border-t border-solid border-[#ffc5c513] pt-4">
               <p className="text-[#ffa5a5] text-[1.1rem]">
-                Contact information 👇🏻
+                Contact informationsss 👇🏻
               </p>
             </div>
 
