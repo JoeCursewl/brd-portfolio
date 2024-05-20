@@ -42,7 +42,7 @@ export default function Main() {
             <a
               download={true}
               href={
-                "/files/Anthony Zerpa - Resume - Frontend & Backend Developer.pdf"
+                "/files/Anthony Zerpa - Resume - Full Stack Developer.pdf"
               }
               className="flex justify-center items-center card-info-ant px-2 py-1 text-[14px] text-[#dcadfc] rounded-[12px] border-solid border-[0.5px] border-[#dcadfc28] transition-colors hover:bg-[#1e1320]"
             >
