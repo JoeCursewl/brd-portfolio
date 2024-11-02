@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65%;
+    width: 1000px;
     flex-direction: column;
 }
 
@@ -72,11 +72,11 @@ img {
 
 @media (max-width: 1030px) {
     .all-content-idk {
-        width: 85%;
+        width: 90%;
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 576px) {
     .all-content-idk {
         width: 92%;
     }

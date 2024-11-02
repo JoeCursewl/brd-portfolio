@@ -70,12 +70,12 @@ export function ABout() {
                 className={`${
                   copy2 === true ? "border-[#4eac5e]" : "border-[#4242427e]"
                 } w-[200px] overflow-hidden text-ellipsis whitespace-nowrap bg-[#050505a2] px-4 py-2 rounded-[8px] flex justify-start items-center gap-2 border-solid border-[0.5px] transition-colors cursor-pointer stuff-ellipsis`}
-                onClick={() => copyToClipboard2("zerpaanthony.wx@breadriuss.store")}
+                onClick={() => copyToClipboard2("zerpaanthony.wx@gmail.com")}
               >
                 <p className="w-[200px] overflow-hidden text-ellipsis whitespace-nowrap">
                   {copy2 === true
                     ? "Text copied!"
-                    : "zerpaanthony.wx@breadriuss.store"}
+                    : "zerpaanthony.wx@gmail.com"}
                 </p>
                 <img className="w-5" src="/svg-projects/arrow-img.svg" alt="" />
               </div>
